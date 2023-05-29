@@ -11,7 +11,7 @@ body {
     background-size: 100%  350px;
     background-repeat: no-repeat;
     background-position: top center;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer{
     padding: 20px;
@@ -97,17 +97,20 @@ h1,h2{
     color: white;
     text-decoration: underline;
 }
+.others{
+    background-color: #1b9bff;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+}
 .wlc{
     margin-top: 290px;
 }
+.wlc h1,.wlcs h1{
+    text-align: center;
+}
 .wlcs{
     margin-top: 100px;
-}
-#services-back{
-    background: #1b9bff;
-    color: white;
-    border-radius: 7px;
-    padding: 20px;
 }
 .services-container {
     display: flex;
@@ -127,6 +130,9 @@ h1,h2{
     transition: transform 0.3s ease;
     position: relative;
     overflow: hidden;
+}
+.partner{
+    height: 300px;
 }
 .service:hover {
     transform: scale(1.05);
@@ -182,11 +188,6 @@ h1,h2{
     width: 48%;
     background-color: #0c82f7;
     border-radius: 7px;
-}
-#contact{
-    background-color: #0c82f7;
-    border-radius: 7px;
-    padding: 20px;
 }
 #contact-container {
     display: flex;
