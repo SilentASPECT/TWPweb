@@ -142,7 +142,7 @@ h1,h2{
 .services-container {
     display: flex;
     flex-wrap: wrap;
-    margin: -20px;
+    margin: -20px; 
 }
 .service {
     width: calc(33.33% - 40px);
@@ -260,8 +260,17 @@ h1,h2{
     }
     .service {
         width: 100%;
+    }
     footer{
         display: flex;
-        flex-direction : column;
-        }
+        flex-direction: column;
+    }
+    .contacts {
+        width: 100%;
+    }
+    #contact-container{
+        display: flex;
+        flex-direction: column;
+        margin-right: 45px;
+    }
 }
