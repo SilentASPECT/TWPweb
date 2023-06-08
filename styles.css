@@ -260,5 +260,8 @@ h1,h2{
     }
     .service {
         width: 100%;
-    }
+    footer{
+        display: flex;
+        flex-direction : column;
+        }
 }
